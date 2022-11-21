@@ -1,0 +1,10 @@
+---
+title: "Regenerative non-reversible MCMC and the Restore algorithm"
+author: "Gareth Roberts"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+The talk will describe a flexible new non-reversible MCMC methodology called the Restore algorithm. The algorithm does not require any augmentation of the state space but possesses an embedded regenerative structure which facilitates the proof of good theoretical properties as well as the construction of efficient associated coupling from the past algorithms. This is joint work with Murray Pollock and Andi Wang.

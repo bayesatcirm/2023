@@ -1,0 +1,10 @@
+---
+title: "On the choice of priors for the estimation of infection fatality rates in the absence of serological data"
+author: "Gonzalo Menna"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+Suppose we want to estimate stratified infection fatality rate (IFR) of a new disease. We propose a novel hierarchical bayesian methodology for the estimation of such rates under the assumption that stratified death information is reliable, but case (and infection) information is incomplete. Our estimates are based on a cascade of binomial models linking infection, cases, and deaths. To infer infections from cases we estimate a mapping from a reporting proxy (such as testing rates) to reporting rates. We discuss the identifiability issues that appear as a consequence of incomplete data and over-parameterization.  We also discuss how model ensembling can lead to more robust estimates. We apply this model to understand COVID-10 related mortality in Santiago, Chile. From our model we find a strong socioeconomic gradient of IFRs in young age groups.

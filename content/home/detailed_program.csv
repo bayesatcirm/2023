@@ -1,0 +1,52 @@
+Day,Hour,talk_type,Speaker,Title
+Monday,8:45-9:00,Introduction,,
+Monday,9:00-10:30,Master Class,Rémi Bardenet,"A tutorial on Bayesian machine learning: what, why and how ?"
+Monday,10:30-11:00,Coffee break,,
+Monday,11:00-11:30,Contributed,Marina Riabiz,Optimal thinning of MCMC output
+Monday,11:30-12:00,Contributed,Hai-Dang Dau,Waste-free Sequential Monte Carlo
+Monday,12:00-12:30,Contributed,James Thornton,Differentiable particle filtering via entropy-regularized optimal transport
+Monday,12:30-14:00,Lunch,,
+Monday,14:00-15:00,Invited talk,Anthony Lee,Intermediate distributions and complexity bounds for SMC
+Monday,15:00-15:30,Coffee break,,
+Monday,15:30-16:30,Invited talk,Judith Rousseau,"Using cut posterior in semi parametric inference with applications to
+semiparametric and nonparametric Bayesian inference in hidden
+Markov models"
+Monday,16:30-17:00,Snooze time,,
+Monday,17:00-19:30,Poster session,,
+Monday,19:30-21:00,Diner,,
+Tuesday,9:00-10:30,Master Class,Rémi Bardenet,"A tutorial on Bayesian machine learning: what, why and how ?"
+Tuesday,10:30-11:00,Coffee break,,
+Tuesday,11:00-11:30,Contributed,Takuo Matsubara,Robust generalised bayesian inference for intractable likelihoods
+Tuesday,11:30-12:00,Contributed,Deborah Sulem,Bayesian estimation of nonlinear Hawkes process
+Tuesday,12:00-12:30,Contributed,Torben Sell,Dimension-robust function space priors for stochastic control
+Tuesday,12:30-14:00,Lunch,,
+Tuesday,14:00-15:30,Master Class,Elisabeth Gassiat,Bayesian multiple testing for dependent data and hidden Markov models
+Tuesday,15:30-16:00,Coffee break,,
+Tuesday,16:00-17:00,Invited talk,Florence Forbes,Simulation-based Bayesian inference for high dimensional inverse problems
+Tuesday,17:00-19:30,Speed Mentoring,,
+Tuesday,19:30-21:00,Diner,,
+Wednesday,9:30-10:30,Invited talk,Eric Moulines,TBA
+Wednesday,10:30-11:00,Coffee break,,
+Wednesday,11:00-11:30,Contributed,Bart Eggen,Bayesian senstivity analysis for a missing data model with continuous outcomes
+Wednesday,11:30-12:00,Contributed,Gonzalo Mena,On the choice of priors for the estimation of infection fatality rates in the absence of serological data
+Wednesday,12:00-12:30,Contributed,Solon Karapanagiotis,Tailored Bayes: a risk modelling framework under unequal misclassification costs
+Wednesday,12:30-14:00,Lunch,,
+Wednesday,14:00-19:30,Social event,,
+Wednesday,19:30-21:00,Diner,,
+Thursday,9:30-11:00,Master Class,Elisabeth Gassiat,Bayesian multiple testing for dependent data and hidden Markov models
+Thursday,11:00-11:30,Coffee break,,
+Thursday,11:30-12:00,Contributed,Amani Alahmadi,SMC ABC estimator for ODE models
+Thursday,12:00-12:30,Contributed,Luke Kelly,Coupled MCMC for Bayesian phylogenetic inference
+Thursday,12:30-14:00,Lunch,,
+Thursday,14:00-15:00,Invited talk,Gareth Roberts,Regenerative non-reversible MCMC and the Restore algorithm
+Thursday,15:00-15:30,Coffee break,,
+Thursday,15:30-16:30,Invited talk,Randal Douc,The Kick Kac teleportation algorithm : boost your favorite MCMC using Kac formula
+Thursday,17:30-18:00,Snooze time,,
+Thursday,18:00-19:30,Social event,,
+Thursday,19:30-21:00,Diner,,
+Friday,9:30-10:00,Contributed,Sebastiano Grazzi,Sticky PDMP samplers for sparce and local inference problems
+Friday,10:00-10:30,Contributed,Andrea Bertazzi,Approximations of PDMP and their convergence properties
+Friday,10:30-11:00,Contributed,Andi Wang,Subgeometric hypocoercivity for PDMP
+Friday,10:45-11:15,Coffee break,,
+Friday,11:00-11:30,Closing,,
+Friday,12:30-14:00,Lunch,,

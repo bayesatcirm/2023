@@ -1,0 +1,10 @@
+---
+title: "Robust Generalised Bayesian Inference for Intractable Likelihoods"
+author: "Takuo Matsubara"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+Generalised Bayesian inference is a framework for updating prior beliefs through the use of a general loss function, rather than a likelihood. This approach can confer robustness to outliers, so it is particularly attractive when working with models that are mis-specified. In this work we consider the use of kernel Stein discrepancies as loss functions, which allows for generalised Bayesian inference with likelihoods involving an intractable normalising constant. Our approach produces pseudo-posteriors that are both (i) computable in closed form for exponential family models, and (ii) robust to model mis-specification. On a theoretical level, we show two fundamental properties, consistency and asymptotic normality of the pseudo-posterior. Additionally, we prove a Bayesian analogue of bias-robustness in the mis-specified context. Then, we provide numerical experiments involving a range of intractable likelihoods, with applications to kernel-based exponential family models and non-Gaussian graphical models.

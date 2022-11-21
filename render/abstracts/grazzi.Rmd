@@ -1,0 +1,12 @@
+---
+title: "Sticky PDMP samplers for sparse and local inference problems"
+author: "Sebastiano Grazzi"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+[Preprint](https://arxiv.org/abs/2103.08478)
+
+During the talk, I will present the sticky PDMP samplers. These are new efficient Monte Carlo methods based on  the simulation of continuous-time piecewise deterministic Markov processes (PDMPs) suitable for inference in high dimensional sparse models, i.e. models for which there is prior knowledge that many coordinates are likely to be exactly 0. This is achieved with the fairly simple idea of endowing existing PDMP samplers with sticky coordinate axes, coordinate planes, etc. Upon hitting those subspaces, an event is triggered, during which the process sticks to the subspace, this way spending some time in a sub-model. That introduces  non-reversible jumps between different (sub-)models. This talk is a joint work with Joris Bierkens, Frank van der Meulen and Moritz Schauer.

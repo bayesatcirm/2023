@@ -1,0 +1,10 @@
+---
+title: "SMC ABC estimator for ODE models"
+author: "Amani Alahmadi"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+Approximate Bayesian Computation (ABC) is a popular tool for estimating the parameters of dynamical systems models, and in particular non-linear differential equation models. It is a Monte Carlo method designed specifically for models in which the likelihood is computationally intractable or expensive, but for which data is relatively easy to simulate. One variant of ABC, known as Sequential Monte Carlo ABC (SMC ABC), shows promise as an efficient methodology for parameter estimation, but some current implementations fail to accurately estimate the posterior distribution of noise variance when applied to Ordinary Differential Equation (ODE) models. Here we present a modified SMC ABC algorithm and propose a new summary statistic that facilitates accurate estimation of noise variance in ODE models. These innovations also result in improved posterior predictive intervals. We apply the proposed method to two ODE epidemiological models, and demonstrate that it outperforms standard SMC ABC in terms of accuracy, and compares favourably with a Markov chain Monte Carlo (MCMC) method in terms of both accuracy and overall computational effort.

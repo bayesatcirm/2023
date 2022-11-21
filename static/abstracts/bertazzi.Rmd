@@ -1,0 +1,10 @@
+---
+title: "Approximations of Piecewise deterministic Markov processes and their convergence properties"
+author: "Andrea Bertazzi"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+Piecewise deterministic Markov processes (PDMP) received substantial interest in recent years as an alternative to classical Markov chain Monte Carlo algorithms. The applicability of PDMP to real world scenarios is currently limited by the fact that these processes can be simulated only when specific properties of the target distribution are known beforehand.  In order to overcome this problem, we introduce an Euler-type discretisation scheme for PDMP which does not need such pre-requisite knowledge. For the resulting schemes we study both pathwise convergence to the continuous process as the step size converges to zero and convergence in law to the target measure in the long time limit. Finally, we study the empirical performance of the Euler discretised zig-zag and  bouncy particle samplers and compare it to the corresponding continuous time processes. (This is a joint work with Paul Dobson and Joris Bierkens.)

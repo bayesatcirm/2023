@@ -1,0 +1,10 @@
+---
+title: "The Kick-Kac teleportation algorithm: boost your favorite Markov Chain Monte Carlo using Kac formula"
+author: "Randal Douc"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+In this work, we propose to target a given probability measure $\pi$ by combining two Markov kernels with different invariant probability measures. In its basic form, the mechanism consists in picking up the current position and moving it according to a $\pi$-invariant Markov kernel as soon as the proposed move does not fall into a predefined region. If this is the case, then  we resort to the last position in this region and move it according to another auxiliary Markov kernel before starting another excursion outside the region with the first kernel. These state dependent interactions allow to combine smoothly different dynamics that can be taylored to each region while the resulting process still targets the probability measure $\pi$ thanks to an argument based on the Kac formula. Under weak conditions, we obtain the Law of Large numbers starting from any point of the state space, as a byproduct of the same property for the different implied kernels. Geometric ergodicity and Central Limit theorem are also established. Generalisations where the indicator function on the region target is replaced by an arbitrary acceptance probability are also given and allow to consider any Metropolis Hastings algorithm as a particular case of this general framework. Numerical examples, including mixture of Gaussian distributions are also provided and discussed.

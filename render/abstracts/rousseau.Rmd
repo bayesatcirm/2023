@@ -1,0 +1,18 @@
+---
+title: "Using cut posterior in semi parametric inference with applications to semiparametric and nonparametric Bayesian inference in hidden Markov models"
+author: "Judith Rousseau"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+If the theory of Bayesian approaches in standard nonparametric or high dimensional models is beginning to be well developed, not so much is known in the context of semi-parametric models outside very specific priors and models. 
+We propose in this talk a pseudo Bayesian approach, based on the cut posterior which allows for the construction of a distribution on the whole parameter and is constructed such that the marginal posterior on the parameter of interest has optimal properties. 
+We apply this approach to the setup of nonparametric hidden Markov models with finite state space and nonparametric emission distributions.
+
+Since the seminal paper of Gassiat et al. (2016), it is known that in such models the transition matrix $Q$ and the emission distributions $F_1,\dots, F_K$ are identifiable, up to label switching. 
+We cut a posterior to simultaneously estimate $Q$ at the rate $\sqrt{n}$ and the emission distributions at the usual nonparametric rates. 
+To do so, we first consider a prior $\pi_1$ on $Q$ and $F_1,\dots, F_K$ which leads to a posterior marginal distribution on $Q$ which verifies the Bernstein von Mises property and thus to an estimator of $Q$ which is efficient. 
+We then combine the marginal posterior on $Q$ with an other posterior distribution on the emission distributions, following the cut-posterior approach, to obtain a posterior which also concentrates around the emission distributions at the minimax rates. 
+In addition an important intermediate result of our work is an inversion inequality which allows to upper bound the $L_1$ norms between the emission densities by the $L_1$ norms between marginal densities of 3 consecutive observations.

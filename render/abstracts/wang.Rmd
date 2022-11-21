@@ -1,0 +1,12 @@
+---
+title: "Subgeometric hypocoercivity for piecewise-deterministic Markov process Monte Carlo methods"
+author: "Andi Wang"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+[*Preprint*](https://arxiv.org/abs/2011.09341)
+
+In recent years there has been great interest in studying nonreversible MCMC schemes based on piecewise-deterministic Markov processes (PDMPs), since such methods avoid 'diffusive' behaviour which can plague their reversible counterparts. However, the theoretical analysis of such nonreversible methods is considerably more complicated, due to the lack of spectral theory in the nonreversible setting. The study of hypocoercivity is one technique to deliver theoretical high-dimensional guarantees for a range of such samplers, including the Zig-Zag Sampler and the Bouncy Particle Sampler. In my talk I will introduce the study of hypocoercivity, describe their application to PDMP-MCMC schemes, and then discuss a recent extension which covers the sub-geometric case for heavy-tailed target distributions.

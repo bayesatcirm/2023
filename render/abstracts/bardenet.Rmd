@@ -1,0 +1,10 @@
+---
+title: "A tutorial on Bayesian machine learning: what, why and how?"
+author: "Rémi Bardenet"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+This course is based on as Master course originally given with Julyan Arbel on Bayesian methods on machine learning.

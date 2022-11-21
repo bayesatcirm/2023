@@ -1,0 +1,12 @@
+---
+title: "Dimension-robust function space priors for stochastic control"
+author: "Torben Sell"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+[*Preprint*](https://arxiv.org/abs/2012.10943)
+
+We discuss a new prior on functions spaces which scales more favourably in the dimension of the function's domain compared to the usual Karhunen-Loéve function space prior, a property we refer to as dimension-robustness. The prior is a Bayesian neural network prior, where each weight and bias has an independent Gaussian prior, but with the key difference that the variances decrease in the width of the network, such that the variances form a summable sequence and the infinite width limit neural network is well defined. We show that the resulting posterior of the unknown function is amenable to sampling using Hilbert space Markov chain Monte Carlo methods. These sampling methods are favoured because they are stable under mesh-refinement, in the sense that the acceptance probability does not shrink to 0 as more parameters are introduced to better approximate the well-defined infinite limit. We show that these priors are competitive and have distinct advantages over other function space priors. Upon defining a suitable likelihood for continuous value functions in a Bayesian approach to reinforcement learning, the prior is used in numerical examples to illustrate its performance and dimension-robustness.

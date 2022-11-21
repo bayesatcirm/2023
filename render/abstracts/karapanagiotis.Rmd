@@ -1,0 +1,10 @@
+---
+title: "TBA"
+author: "Solon Karapanagiotis"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+Risk prediction models are a crucial tool in healthcare and beyond. Risk prediction models with a binary outcome (i.e., binary classification models) are often constructed using methodology which assumes the costs of different classification errors are equal. In many healthcare applications this assumption is not valid, and the differences between misclassification costs can be quite large. For instance, in a diagnostic setting, the  cost  of  misdiagnosing  a  person  with  a  life-threatening  disease  as  healthy  may  be  larger  than  the cost of misdiagnosing a healthy person as a patient. In this work, we present Tailored Bayes (TB), a novel Bayesian inference framework which “tailors” model fitting to optimise predictive performance with respect to unbalanced misclassification costs. We use simulation studies to showcase when TB is expected to outperform standard Bayesian methods in the context of logistic regression. We then apply TB to three real-world applications, a cardiac surgery, a breast cancer prognostication task and a breast cancer tumour classification task, and demonstrate the improvement in predictive performance over standard methods. Finally, we extend the framework to incorporate a variable selection procedure, a ubiquitous challenge in statistical modelling, especially, with the rise of high-dimensional data. We show that TB favours smaller models (with less covariates) compared to standard Bayes paradigm (SB), whilst performing better or no worse than SB. This pattern was seen both in simulated and real data. In addition, we show the relative importance of the covariates changes when we consider unequal misclassification costs.This has implications for risk prediction models since smaller models may result in lower data collection costs and different covariates being selected for further downstream analysis, for instance in genetic fine-mapping and related applications.

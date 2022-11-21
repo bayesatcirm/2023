@@ -1,0 +1,30 @@
+---
+title: example_with_R
+author: ~
+date: '2020-11-16'
+slug: example-with-r
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-11-16T16:43:22+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+```{r tableau_lundi_bis, message = FALSE}
+library(tidyverse)
+tableau_lundi <- data.frame(creneau = c("9h- 10h30"),
+                        type = c("Master Class"),
+                        Speaker = c("E. Gassiat"),
+                        Title = c("To be announced"),
+                        Abstract = c("[Disponible ici](https://papayoun.github.io)"))
+knitr::kable(tableau_lundi,
+             col.names = c("", "", "Speaker", "Title", "Abstract"))
+```
+

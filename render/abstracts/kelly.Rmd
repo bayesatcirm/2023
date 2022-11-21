@@ -1,0 +1,10 @@
+---
+title: "Coupled MCMC for Bayesian phylogenetic inference"
+author: "Luke Kelly"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+Many modern phylogenetic methods specify a generative model and take a Bayesian approach to inference. However, phylogenetic posterior distributions are intractable functions of the tree and model parameters and are often highly multimodal. Markov chain Monte Carlo is the primary tool for inference, via either extremely long marginal chains or coupled tempered chains, although there have been recent developments using sequential Monte Carlo, piecewise deterministic Markov processes and variational approximations for specific problems. In any case, we lack principled methods to quantify convergence and mixing of Markov schemes on the space of trees, so it is difficult to separate modelling and fitting errors. We extend recent work on couplings of MCMC transition kernels to phylogenetic inference problems in order to construct unbiased estimators and diagnose convergence. The extension is not straightforward due to the complexities of working in tree space and because we couple existing marginal kernels which only operate on a small subset of the state at each iteration. We illustrate our convergence diagnostics and unbiased estimators on a variety of problems and discuss their usefulness compared to other methods.

@@ -1,0 +1,10 @@
+---
+title: "Simulation-based Bayesian inference for high dimensional inverse problems"
+author: "Florence Forbes"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+We investigate the use of learning approaches to handle Bayesian inverse problems in a computationally efficient way when the observations to be inverted present a moderately high number of dimensions and are in large number. We propose a tractable inverse regression approach which has the advantage to produce full probability distributions as approximations of the target posterior distributions. These distributions have several interesting features. They provide confidence indices on the predictions and can be combined with importance sampling or approximate Bayesian computations schemes for a better exploration of inverse problems when multiple equivalent solutions exist. They generalised easily to variants that can handle non Gaussian data, dependent or missing observations. The relevance of the proposed approach is illustrated  on synthetic examples and on two real data applications, in the context of planetary remote sensing and neuroimaging. The approach shows interesting capabilities both in terms of computational efficiency and multimodal inference.

@@ -1,0 +1,10 @@
+---
+title: "Waste-free sequential Monte Carlo"
+author: "Hang-Haï Dau"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+A standard way to move particles in a SMC sampler is to apply several steps of a MCMC (Markov chain Monte Carlo) kernel. Unfortunately, it is not clear how many steps need to be performed for optimal performance. In addition, the output of the intermediate steps are discarded and thus wasted somehow. We propose a new, waste-free SMC algorithm which uses the outputs of all these intermediate MCMC steps as particles. We establish that its output is consistent and asymptotically normal. We use the expression of the asymptotic variance to develop various insights on how to implement the algorithm in practice. We develop in particular a method to estimate, from a single run of the algorithm, the asymptotic variance of any particle estimate. We show empirically, through a range of numerical examples, that waste-free SMC tends to outperform standard SMC samplers, and especially so in situations where the mixing of the considered MCMC kernels decrease across iterations (as in tempering or rare event problems).

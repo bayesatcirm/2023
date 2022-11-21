@@ -1,0 +1,10 @@
+---
+title: "Intermediate distributions and complexity bounds for SMC"
+author: "Anthony Lee"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+It is now fairly common to use Sequential Monte Carlo (SMC) algorithms for normalizing constant estimation of high-dimensional, complex distributions without any particular structure. In order for the algorithm to give reasonable accuracy, it is well known empirically that one must introduce appropriate intermediate distributions that allow the particle system to "gradually evolve" from a simple initial distribution to the complex target distribution, and one must also specify an appropriate number of particles to control the error. Since both the number of intermediate distributions and the number of particles affect the computational cost of the algorithm, it is crucial to study and attempt to minimize the computational cost of the algorithm subject to constraints on the error. We present three strategies that have been used to specify intermediate distributions and provide bounds on the computational complexity of normalizing constant estimation with well-tuned sequences, which involves obtaining bounds on the length of sequences of intermediate distributions. Although the results for SMC algorithms involve some fairly strong assumptions on the Markov kernels involved, they are to the best of our knowledge the only general results available thus far. This primarily theoretical analysis also suggests where further research is required to tune the approach.

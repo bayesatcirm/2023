@@ -1,0 +1,50 @@
+---
+title: example_with_R
+author: ~
+date: '2020-11-16'
+slug: example-with-r
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-11-16T16:43:22+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<pre class="r"><code>library(tidyverse)
+tableau_lundi &lt;- data.frame(creneau = c(&quot;9h- 10h30&quot;),
+                        type = c(&quot;Master Class&quot;),
+                        Speaker = c(&quot;E. Gassiat&quot;),
+                        Title = c(&quot;To be announced&quot;),
+                        Abstract = c(&quot;[Disponible ici](https://papayoun.github.io)&quot;))
+knitr::kable(tableau_lundi,
+             col.names = c(&quot;&quot;, &quot;&quot;, &quot;Speaker&quot;, &quot;Title&quot;, &quot;Abstract&quot;))</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="left"></th>
+<th align="left">Speaker</th>
+<th align="left">Title</th>
+<th align="left">Abstract</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">9h- 10h30</td>
+<td align="left">Master Class</td>
+<td align="left">E. Gassiat</td>
+<td align="left">To be announced</td>
+<td align="left"><a href="https://papayoun.github.io">Disponible ici</a></td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,10 @@
+---
+title: "Bayesian sensitivity analysis for causal inference"
+author: "Bart Eggen"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+In the field of causal inference, sensitivity analysis is very important to assess the robustness of study conclusions when certain assumptions are not satisfied. We will look at the missing data model and perform sensitivity analysis under the assumption that missing outcomes are missing completely at random. Scharfstein et. al. (2003) introduced a fully Bayesian methodology and conjectured a Bernstein-von Mises theorem for the posterior of the outcome, by incorporating prior beliefs about non-identifiable, but interpretable parameters. We prove that their conjecture is correct by providing three Bernstein-von Mises theorems. The results are obtained using the following priors: a Dirichlet process prior on the distribution of the outcome; a Dirichlet process prior on the distribution of the outcome conditional on the subject being treated; a Gaussian process prior on the density of the distribution of the outcome conditional on the subject being treated. We also provide a simulation study, showing the performance of the methods in finite sample scenarios."

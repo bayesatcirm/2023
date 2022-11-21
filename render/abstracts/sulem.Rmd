@@ -1,0 +1,12 @@
+---
+title: "Bayesian estimation of nonlinear Hawkes process"
+author: "Deborah Sulem"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+[*Preprint*](https://arxiv.org/abs/2103.17164)
+
+Multivariate point processes are widely applied to model event-type data such as natural disasters, online message exchanges, financial transactions or neuronal spike trains. One very popular point process model in which the probability of occurrences of new events depend on the past of the process is the Hawkes process. In this work we consider the nonlinear Hawkes process, which notably models excitation and inhibition phenomena between dimensions of the process. In a nonparametric Bayesian estimation framework, we obtain concentration rates of the posterior distribution on the parameters, under mild assumptions on the prior distribution and the model. These results also lead to convergence rates of Bayesian estimators. Another object of interest in event-data modelling is to recover the graph of interaction - or Granger connectivity graph - of the phenomenon. We provide consistency guarantees on Bayesian methods for estimating this quantity; in particular, we prove that the posterior distribution is consistent on the graph adjacency matrix of the process, as well as a Bayesian estimator based on an adequate loss function.
