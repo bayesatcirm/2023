@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: mpetienne/r-hugo:0.1
+    container: mpetienne/r-hugo:0.2
 
     steps:
       - name: Checkout repository and submodules
@@ -17,10 +17,8 @@ jobs:
           submodules: recursive
       - name: Render website
         run: |
-          install.packages(c('kableExtra', 'wesanderson'))
-          blogdown::build_site(local = FALSE, 
-                               run_hugo = FALSE, 
-                               build_rmd = TRUE)
+          Rscript -e "install.packages(c('kableExtra', 'wesanderson'))"
+          blogdown::build_site(local = FALSE, run_hugo = FALSE, build_rmd = TRUE)
           rmarkdown::render_site(encoding = 'UTF-8')         
         shell: Rscript {0}
       - name: Deploy
