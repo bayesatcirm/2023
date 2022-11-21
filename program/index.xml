@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programs | Bayes at CIRM</title>
-    <link>/program/</link>
-      <atom:link href="/program/index.xml" rel="self" type="application/rss+xml" />
+    <link>2023/program/</link>
+      <atom:link href="2023/program/index.xml" rel="self" type="application/rss+xml" />
     <description>Programs</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>/2023/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Programs</title>
-      <link>/program/</link>
+      <link>2023/program/</link>
     </image>
     
     <item>
       <title>Monday 25th</title>
-      <link>/program/01_monday/</link>
+      <link>2023/program/01_monday/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/program/01_monday/</guid>
+      <guid>2023/program/01_monday/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Morning
 &lt;ul&gt;
@@ -34,9 +34,9 @@
     
     <item>
       <title>Tuesday 26th</title>
-      <link>/program/02_tuesday/</link>
+      <link>2023/program/02_tuesday/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/program/02_tuesday/</guid>
+      <guid>2023/program/02_tuesday/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Morning
 &lt;ul&gt;
@@ -54,9 +54,9 @@
     
     <item>
       <title>Wednesday 27th</title>
-      <link>/program/03_wednesday/</link>
+      <link>2023/program/03_wednesday/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/program/03_wednesday/</guid>
+      <guid>2023/program/03_wednesday/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Morning
 &lt;ul&gt;
@@ -74,9 +74,9 @@
     
     <item>
       <title>Thursday 28th</title>
-      <link>/program/04_thursday/</link>
+      <link>2023/program/04_thursday/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/program/04_thursday/</guid>
+      <guid>2023/program/04_thursday/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Morning
 &lt;ul&gt;
@@ -94,9 +94,9 @@
     
     <item>
       <title>Friday 29th</title>
-      <link>/program/05_friday/</link>
+      <link>2023/program/05_friday/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/program/05_friday/</guid>
+      <guid>2023/program/05_friday/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Morning
 &lt;ul&gt;
