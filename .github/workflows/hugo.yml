@@ -17,7 +17,9 @@ jobs:
           submodules: recursive
       - name: Render website
         run: |
+          mkdir render
           Rscript -e "install.packages(c('kableExtra', 'wesanderson'))"
+          Rscript -e "blogdown::install_hugo()"
           Rscript -e "blogdown::build_site(local = FALSE, run_hugo = FALSE, build_rmd = TRUE)"
           Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
       - name: Deploy
