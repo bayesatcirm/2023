@@ -18,28 +18,23 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
-      - name: Build with Hugo
-        env:
-          # For maximum backward compatibility with Hugo modules
-          HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
-        run: |
-          hugo \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          path: ./public
-
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+          hugo-version: '0.81.0'
+          extended: true
+      - name: Render about me & cv
+        run: |
+          blogdown::build_site(local = FALSE, 
+                               run_hugo = FALSE, 
+                               build_rmd = TRUE)
+          rmarkdown::render_site(encoding = 'UTF-8')         
+        shell: Rscript {0}
+        env:
+         ORCID_TOKEN: ${{ secrets.ORCID_TOKEN }}
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./render
+  
