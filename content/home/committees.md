@@ -59,6 +59,7 @@ subtitle = ""
   - [Christian Robert](https://www.ceremade.dauphine.fr/~xian/)
   - [Judith Rousseau](https://www.ceremade.dauphine.fr/~rousseau/)
   
+  <br>
   
 - Organizing committee
   - [Sophie Ancelet](https://fr.linkedin.com/in/ancelet-sophie-74a9baa1)
