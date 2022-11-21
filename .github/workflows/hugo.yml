@@ -15,23 +15,14 @@ jobs:
         uses: actions/checkout@v2
         with:
           submodules: recursive
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v2
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.81.0'
-          extended: true
-      - name: Render about me & cv
+      - name: Render website
         run: |
+          install.packages(c('kableExtra', 'wesanderson'))
           blogdown::build_site(local = FALSE, 
                                run_hugo = FALSE, 
                                build_rmd = TRUE)
           rmarkdown::render_site(encoding = 'UTF-8')         
         shell: Rscript {0}
-        env:
-         ORCID_TOKEN: ${{ secrets.ORCID_TOKEN }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
