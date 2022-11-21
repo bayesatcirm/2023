@@ -1,0 +1,13 @@
+---
+title: "Bayesian multiple testing for dependent data and hidden Markov models"
+author: "Elisabeth Gassiat"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+
+This course will mainly focus on two recently submitted papers:
+
+- Multiple testing in non parametric hidden Markov models: an empirical Bayes approach (K. Abraham, I. Castillo, E. Gassiat, avalaible [here](https://arxiv.org/abs/2101.03838));
+- Fundamental limits for learning hidden Markov model parameters (K. Abraham, E. Gassiat, Z. Naulet, available [here](https://arxiv.org/abs/2106.12936));
