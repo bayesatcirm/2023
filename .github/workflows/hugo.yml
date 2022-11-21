@@ -18,9 +18,8 @@ jobs:
       - name: Render website
         run: |
           Rscript -e "install.packages(c('kableExtra', 'wesanderson'))"
-          blogdown::build_site(local = FALSE, run_hugo = FALSE, build_rmd = TRUE)
-          rmarkdown::render_site(encoding = 'UTF-8')         
-        shell: Rscript {0}
+          Rscript -e "blogdown::build_site(local = FALSE, run_hugo = FALSE, build_rmd = TRUE)"
+          Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
