@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 static/post/2015-*
+render/*
