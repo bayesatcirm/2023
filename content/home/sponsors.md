@@ -51,5 +51,3 @@ subtitle = ""
 +++
 
 ![SFdS](sponsors/sfds_logo.png)
-
-
