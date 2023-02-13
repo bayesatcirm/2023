@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 static/post/2015-*
+render/*
+content/post/2020-11-16-example-with-r/*
+content/post/2015-07-23-r-rmarkdown.html
