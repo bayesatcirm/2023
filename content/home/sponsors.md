@@ -8,7 +8,7 @@ headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "Committees"
+title = "Sponsors"
 subtitle = ""
 
 [design]
@@ -50,24 +50,4 @@ subtitle = ""
  css_class = ""
 +++
 
-- Scientific committee
-  - [Florence Forbes](http://mistis.inrialpes.fr/people/forbes/)
-  - [Sylvia Frühwirth-Schnatter](https://statmath.wu.ac.at/~fruehwirth/)
-  - [Olivier Gimenez](https://oliviergimenez.github.io/)
-  - [Eric Parent](https://www6.inrae.fr/mia-paris/Equipes/Membres/Eric-Parent)
-  - [Igor Pruenster](https://mypage.unibocconi.eu/igorpruenster/)
-  - [Christian Robert](https://www.ceremade.dauphine.fr/~xian/)
-  - [Judith Rousseau](https://www.ceremade.dauphine.fr/~rousseau/)
-  
-  <br>
-  
-- Organizing committee
-  - [Sophie Ancelet](https://fr.linkedin.com/in/ancelet-sophie-74a9baa1)
-  - [Julyan Arbel](https://www.julyanarbel.com/)
-  - [Rémi Bardenet](https://rbardenet.github.io/)
-  - [Anna Bonnet](https://anna.biogeek.land/)
-  - [Marie-Pierre Etienne](https://marieetienne.github.io/)
-  - [Sarah Filippi](https://www.imperial.ac.uk/people/s.filippi)
-  - [Guillaume Kon Kam King](https://sites.google.com/site/guillaumekonkamking/)
-  - [Pierre Jacob](https://sites.google.com/site/pierrejacob/)
-  - [Robin Ryder](https://sites.google.com/site/robryd/)
+![SFdS](sponsors/sfds_logo.png)
