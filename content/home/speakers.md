@@ -13,8 +13,9 @@ subtitle = "2 Master classes (2 x 1h 30 each) and 6 invited speakers (1h)"
 [content]
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-  user_groups = ["Master classes",
-                 "Invited speakers", "Tutorials"]
+  user_groups = ["Master classes", 
+                  "Tutorials",
+                 "Invited speakers"]
 
 [design]
   # Show user's social networking links? (true/false)
