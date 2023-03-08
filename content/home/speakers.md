@@ -5,7 +5,7 @@
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
+weight = 50  # Order that this section will appear.
 
 title = "Speakers"
 subtitle = "2 Master classes (2 x 1h 30 each) and 6 invited speakers (1h)"
@@ -14,7 +14,7 @@ subtitle = "2 Master classes (2 x 1h 30 each) and 6 invited speakers (1h)"
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups = ["Master classes",
-                 "Invited speakers"]
+                 "Invited speakers", "Tutorials"]
 
 [design]
   # Show user's social networking links? (true/false)
