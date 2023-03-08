@@ -17,4 +17,6 @@ user_groups:
 ---
 
 
-Assitant Professor at .....
+François Caron is Associate Professor in Statistics at  University of Oxford and Tutorial Fellow in  Keble College.
+
+He develops probabilistic models for complex and structure data mainly in the context of Statistical Machine Learning and specifically within a Bayesian framework or non parametric Bayesian framework. 

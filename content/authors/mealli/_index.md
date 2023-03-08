@@ -22,4 +22,4 @@ She is the Director of the Florence Center for Data Science, University of Flore
 
 She is also Part-time Professor at the Department of Economics of the European University Institute (EUI).
 
-More to know on [his personal website](https://sites.google.com/unifi.it/fabriziamealli)
+More to know on [her personal website](https://sites.google.com/unifi.it/fabriziamealli)

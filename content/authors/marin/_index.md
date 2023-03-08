@@ -18,6 +18,5 @@ user_groups:
 
 Jean-Michel Marin is a Professor at university of Montpellier, specialist of model choice and approximate Bayesian computation. 
 
-More to know on [his personal website](Nicolas Chopin is a Professort at ENSAE, Institut Polytechnique de Paris.
 
 More to know on [his personal website](https://imag.umontpellier.fr/~marin)

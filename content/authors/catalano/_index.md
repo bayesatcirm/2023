@@ -18,4 +18,4 @@ user_groups:
 
  Marta Catalano is Harrison Early Career Assistant Professor in the Department of Statistics at the University of Warwick. She achieved a postdoc at the University of Torino with Pierpaolo De Blasi and  obtained her PhD in Statistics at Bocconi University, under the supervision of Antonio Lijoi and Igor Prünster. 
  
-More to know on [his personal website](https://martacatalano.github.io/)
+More to know on [her personal website](https://martacatalano.github.io/)
