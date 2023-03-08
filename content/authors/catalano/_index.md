@@ -7,7 +7,7 @@ authors:
 # - Artificial intelligence
 email: ""
 organizations:
-- name:  University of Warwick
+- name:  University of Florence
   url: ""
 role: Harrison Early Career Assistant Professor in the Department of Statistics at the University of Warwick.
 superuser: false
@@ -16,8 +16,6 @@ user_groups:
 - Invited speakers
 ---
 
-Marta Catalano is assistant Professor at university of Warwick after a Post Doc in toronto and a PhD from Bocconi University. She develops her research  in non parametric Bayesian statistics. 
-
-More to know on [his personal website](Nicolas Chopin is a Professort at ENSAE, Institut Polytechnique de Paris.
-
-More to know on [his personal website](https://imag.umontpellier.fr/~marin)
+ Marta Catalano is Harrison Early Career Assistant Professor in the Department of Statistics at the University of Warwick. She achieved a postdoc at the University of Torino with Pierpaolo De Blasi and  obtained her PhD in Statistics at Bocconi University, under the supervision of Antonio Lijoi and Igor Prünster. 
+ 
+More to know on [his personal website](https://martacatalano.github.io/)
