@@ -51,7 +51,5 @@ subtitle = ""
 +++
 
 # To register for the now traditional  ping pong tournament, click [here](). 
-# 
 # It will be a double tournament, you're partner will be randomly (with importance weights!) chosen.
-# 
 # The tournament will start on Tuesday! 
