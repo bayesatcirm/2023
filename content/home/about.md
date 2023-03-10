@@ -13,3 +13,4 @@ title = ""
 author = "admin"
 +++
 
+The design and analysis of robust Bayesian methods for high dimensional statistical settings is at the cornerstone of modern real world learning problems. They have recently attracted a lot of attention thanks to newly widespread massive computational resources and the keen interest for pivotal applications which require interpretable solutions and uncertainty estimation without which inference procedures provide very few guarantees. 
