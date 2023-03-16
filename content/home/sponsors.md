@@ -50,6 +50,15 @@ subtitle = ""
  css_class = ""
 +++
 
-![SFdS](sponsors/all_sponsors.png)
+- [Centre International de Rencontres Mathématiques](https://www.cirm-math.fr)
+- [Société Française de Statistique](https://www.sfds.asso.fr/)
+- [Université Paris Dauphine - PSL](https://dauphine.psl.eu/)
+- [INRAE Département MathNUM](https://www.inrae.fr/departements/mathnum)
+- [Centre Inria de l'Université Grenoble Alpes](https://www.inria.fr/fr/centre-inria-universite-grenoble-alpes)
+- [LabEx PERSYVAL-Lab](https://persyval-lab.org/)
+- [European Research Council - Blackjack](https://rbardenet.github.io/#erc)
+- [Laboratoire de probabilités statistique & modélisation](https://www.lpsm.paris/)
 
+
+![SFdS](sponsors/all_sponsors.png)
 
