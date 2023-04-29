@@ -48,7 +48,7 @@ print_function <- function(df){
 TO CHANGE : replace full_abstracts.pdf by the new one
 The fully detailed program, containing also the abstracts of the poster session, is available [here](home/full_abstracts.pdf) in the `pdf` format. -->
 
-## (It's got to be) Monday
+## A good start on Monday
 
 ```{r full_program, eval = TRUE, echo=FALSE, message=FALSE}
 full_program <- read.csv("detailed_program2023.csv", sep = ",", header = TRUE) %>% 
@@ -70,28 +70,28 @@ print_function(lundi)
 ```
 
 
-## (Hooray for) Tuesday 
+## A natural continuation on  Tuesday 
 
 ```{r mardi, echo = FALSE}
 mardi <- filter(full_program, Day == "Tuesday")
 print_function(mardi)
 ```
 
-## (Waiting for) Wednesday
+## The perfect balance on Wednesday
 
 ```{r mercredi, echo = FALSE}
 mercredi <- filter(full_program, Day == "Wednesday")
 print_function(mercredi)
 ```
 
-## (Sweet) Thursday
+## Without weakening on Thursday
 
 ```{r jeudi, echo = FALSE}
 jeudi <- filter(full_program, Day == "Thursday")
 print_function(jeudi)
 ```
 
-## (Aloha) Friday
+## One more for the road on Friday
 
 ```{r vendredi, echo = FALSE}
 vendredi <- filter(full_program, Day == "Friday")
