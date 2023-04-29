@@ -58,6 +58,7 @@ subtitle = ""
 - [LabEx PERSYVAL-Lab](https://persyval-lab.org/)
 - [European Research Council - Blackjack](https://rbardenet.github.io/#erc)
 - [Laboratoire de probabilités statistique & modélisation](https://www.lpsm.paris/)
+- [Essec Business School](https://www.essec.edu/)
 
 
 ![SFdS](sponsors/all_sponsors.png)
