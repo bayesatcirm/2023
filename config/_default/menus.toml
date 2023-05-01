@@ -16,7 +16,18 @@
 [[main]]
   name = "Speakers"
   url = "#speakers"
-  weight = 80
+  weight = 20
+
+[[main]]
+  name = "Info"
+  url = "#info"
+  weight = 25
+
+
+[[main]]
+  name = "Program"
+  url = "#program_R"
+  weight = 30
 
 
 #[[main]]
@@ -30,14 +41,9 @@
   weight = 60
   
 [[main]]
-  name = "Program"
-  url = "#program_R"
-  weight = 10
-
-[[main]]
   name = "Committees"
   url = "#committees"
-  weight = 80
+  weight = 70
 
 
 [[main]]
