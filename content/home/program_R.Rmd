@@ -4,7 +4,7 @@ draft: no
 date: "2020-03-020T00:00:00+01:00"
 headless: false
 active: true
-weight: 30
+weight: 40
 # subtitle: Définition et simulation avec R
 # linktitle: MB
 editor_options: 

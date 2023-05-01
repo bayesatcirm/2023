@@ -6,9 +6,9 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 5  # Order that this section will appear.
+weight = 10  # Order that this section will appear.
 
-title = "About"
+title = ""
 subtitle = ""
 
 [design]
@@ -50,4 +50,6 @@ subtitle = ""
  css_class = ""
 +++
 
-Autumn school in Bayesian Statistics
+
+
+**The scientific core of this week is to provide a rich overview of end-to-end Bayesian solutions** to real world learning problems in complex settings. The week will highlight all aspects of such approaches from data processing and feature engineering to Monte Carlo estimation procedures as well as the most recent theoretical guarantees obtained in high dimensional settings or frameworks with dependent and/or missing data.  
