@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
 title = "Speakers"
-subtitle = "2 Master classes (2 x 1h 30 each) and 6 invited speakers (1h)"
+subtitle = "2 Master classes (2 x 2h each) 2 tutorials (2h each) and 6 invited speakers (1h each)"
 
 [content]
   # Choose which groups/teams of users to display.

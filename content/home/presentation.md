@@ -51,5 +51,4 @@ subtitle = ""
 +++
 
 
-
-**The scientific core of this week is to provide a rich overview of end-to-end Bayesian solutions** to real world learning problems in complex settings. The week will highlight all aspects of such approaches from data processing and feature engineering to Monte Carlo estimation procedures as well as the most recent theoretical guarantees obtained in high dimensional settings or frameworks with dependent and/or missing data.  
+**The objective of this autumn school is to provide a comprehensive overview of Bayesian methods for complex settings:** modelling techniques, computational advances, theoretical guarantees and practical implementation. It will include two masterclasses, on Sequential Monte Carlo and on Bayesian causal inference, tutorials on NIMBLE and on Bayesian Statistics with Python, and a selection of invited and contributed talks.   

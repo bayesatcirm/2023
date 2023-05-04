@@ -50,4 +50,6 @@ subtitle = ""
  css_class = ""
 +++
 
-As the number of attendees at the workshop is limited, interested researcher are asked to fill the pre registration form on the [CIRM website]( https://conferences.cirm-math.fr/2881.html). You will be soon informed if your application has been selected, otherwise you will be added to the waiting list and contacted as soon as a new opportunity opens. 
+Please pre-register directly on the [CIRM website]( https://conferences.cirm-math.fr/2881.html). As the capacity of CIRM is limited, there is a cap on the number of attendees and we cannot guarantee that all scientists who pre-register will be able to participate You will be soon informed if your application has been selected, otherwise you will be added to the waiting list and contacted if a slot opens. 
+
+There is no registration fee. Room and board are available for all participants, and should be paid directly to CIRM (you will receive information about this step in due course). The organizers have secured funding to cover the room and board costs of a number of participants: if you are interested, please apply when you pre-register. We do not have funding to cover travel expenses.
