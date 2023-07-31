@@ -14,6 +14,6 @@ user_groups:
 - Master classes
 ---
 
-Nicolas Chopin is a Professort at ENSAE, Institut Polytechnique de Paris.
+Nicolas Chopin is a Professor Professor of Data Sciences/Statistics/Machine Learning at ENSAE, Institut Polytechnique de Paris.
 
 More to know on [his personal website](https://nchopin.github.io/)
