@@ -14,6 +14,10 @@ user_groups:
 - Master classes
 ---
 
-Nicolas Chopin is a Professor Professor of Data Sciences/Statistics/Machine Learning at ENSAE, Institut Polytechnique de Paris.
+Nicolas Chopin is a Professor Professor of Data Sciences/Statistics/Machine Learning at ENSAE, Institut Polytechnique de Paris. He is particularly interested in all aspects of Bayesian computation, that is algorithms to perform Bayesian inference, including:
 
-More to know on [his personal website](https://nchopin.github.io/)
+- Monte Carlo methods: particularly Sequential Monte Carlo, but also plain, quasi- and Markov chain Monte Carlo  
+- Fast approximations: e.g. Expectation Propagation and variational Bayes.
+
+
+More information on [his personal website](https://nchopin.github.io/)
