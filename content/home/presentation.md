@@ -6,9 +6,9 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 60  # Order that this section will appear.
+weight = 10  # Order that this section will appear.
 
-title = "Sponsors"
+title = ""
 subtitle = ""
 
 [design]
@@ -50,16 +50,5 @@ subtitle = ""
  css_class = ""
 +++
 
-- [Centre International de Rencontres Mathématiques](https://www.cirm-math.fr)
-- [Société Française de Statistique](https://www.sfds.asso.fr/)
-- [Université Paris Dauphine - PSL](https://dauphine.psl.eu/)
-- [INRAE Département MathNUM](https://www.inrae.fr/departements/mathnum)
-- [Centre Inria de l'Université Grenoble Alpes](https://www.inria.fr/fr/centre-inria-universite-grenoble-alpes)
-- [LabEx PERSYVAL-Lab](https://persyval-lab.org/)
-- [European Research Council - Blackjack](https://rbardenet.github.io/#erc)
-- [Laboratoire de probabilités statistique & modélisation](https://www.lpsm.paris/)
-- [Essec Business School](https://www.essec.edu/)
 
-
-![SFdS](sponsors/all_sponsors.png)
-
+**The objective of this autumn school is to provide a comprehensive overview of Bayesian methods for complex settings:** modelling techniques, computational advances, theoretical guarantees and practical implementation. It will include two masterclasses, on Sequential Monte Carlo and on Bayesian causal inference, tutorials on NIMBLE and on Bayesian Statistics with Python, and a selection of invited and contributed talks.   

@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
 
-title = "End-to-end Bayesian learning"
+title = "Autumn school in Bayesian Statistics 2023"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 # hero_media = "hero-academic.png"
@@ -51,7 +51,7 @@ title = "End-to-end Bayesian learning"
 #   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-*International conference* 
+*Research school* 
 
 30th October - 3rd November 2023, 
 CIRM, Marseille

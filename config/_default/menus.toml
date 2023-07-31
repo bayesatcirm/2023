@@ -9,34 +9,41 @@
 #  weight = 10
 
 [[main]]
-  name = "About"
-  url = "#about"
+  name = "Presentation"
+  url = "#presentation"
   weight = 10
 
 [[main]]
   name = "Speakers"
   url = "#speakers"
-  weight = 30
+  weight = 20
+
+[[main]]
+  name = "Info"
+  url = "#info"
+  weight = 25
+
 
 [[main]]
   name = "Program"
   url = "#program_R"
-  weight = 40
+  weight = 30
 
-[[main]]
-  name = "Social events"
-  url = "#submission"
-  weight = 50
+
+#[[main]]
+#  name = "Social events"
+#  url = "#submission"
+#  weight = 50
   
 [[main]]
   name = "Poster session"
   url = "#important_dates"
   weight = 60
-
+  
 [[main]]
   name = "Committees"
   url = "#committees"
-  weight = 80
+  weight = 70
 
 
 [[main]]
