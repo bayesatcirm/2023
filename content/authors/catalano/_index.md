@@ -9,7 +9,7 @@ email: ""
 organizations:
 - name:  University of Warwick
   url: ""
-role: Harrison Early Career Assistant Professor in the Department of Statistics.
+role: Harrison Early Career Assistant Professor in the Department of Statistics at the University of Warwick.
 superuser: false
 title: Marta Catalano
 user_groups:
