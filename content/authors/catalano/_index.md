@@ -7,9 +7,9 @@ authors:
 # - Artificial intelligence
 email: ""
 organizations:
-- name:  University of Florence
+- name:  University of Warwick
   url: ""
-role: Harrison Early Career Assistant Professor in the Department of Statistics at the University of Warwick.
+role: Harrison Early Career Assistant Professor in the Department of Statistics.
 superuser: false
 title: Marta Catalano
 user_groups:
