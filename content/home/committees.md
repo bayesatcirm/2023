@@ -68,6 +68,6 @@ subtitle = ""
   - [Anna Bonnet](https://anna.biogeek.land/)
   - [Marie-Pierre Etienne](https://marieetienne.github.io/)
   - [Sarah Filippi](https://www.imperial.ac.uk/people/s.filippi)
-  - [Guillaume Kon Kam King](https://sites.google.com/site/guillaumekonkamking/)
   - [Pierre Jacob](https://sites.google.com/site/pierrejacob/)
+  - [Guillaume Kon Kam King](https://sites.google.com/site/guillaumekonkamking/)
   - [Robin Ryder](https://sites.google.com/site/robryd/)
