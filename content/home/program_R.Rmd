@@ -1,7 +1,7 @@
 ---
 title: "Detailed program"
 draft: no
-date: "2020-03-020T00:00:00+01:00"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 headless: false
 active: true
 weight: 40
@@ -34,13 +34,12 @@ get_color <- function(vec){
 }
 print_function <- function(df){
   df %>% 
-    dplyr::select(-Day) %>% 
     mutate(talk_type = cell_spec(
       talk_type, color = "white", bold = T,
       background = get_color(talk_type)
     )) %>% 
   kableExtra::kbl(escape = FALSE,
-             col.names = c("", "", "Speaker", "Title")) %>%
+             col.names = c("", "", "Speaker", "Title", "Abstract")) %>%
   kableExtra::kable_classic("striped")
 }
 ```
@@ -52,17 +51,41 @@ The fully detailed program, containing also the abstracts of the poster session,
 
 ## A good start on Monday
 
-```{r full_program, eval = TRUE, echo=FALSE, message=FALSE}
+```{r full_program, eval = TRUE, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
 full_program <- read.csv("detailed_program2023.csv", sep = ",", header = TRUE) %>% 
-  mutate(last_name = ifelse(Speaker == "", "",
+  mutate(id = ifelse(Speaker == "", "",
                             strsplit(Speaker, split = " ") %>% 
            map(2) %>%
-           tolower() %>% 
-           paste0("(abstracts/", ., ".html)")),
+           tolower()),
+        last_name = paste0("(abstracts/", id, ".html)"),
          Title = ifelse(Title == "", "",
                         paste0("[", Title, "]", last_name))) %>% 
-  dplyr::select(-last_name) %>% 
   filter(talk_type %in% c("Introduction", "Master Class", "Contributed", "Invited talk", "Poster session", "Practical session", "Speed mentoring", "Social event", "Closing", "Tutorial"))
+
+abstract_list <- full_program %>% 
+  filter(id != "") %>% 
+  mutate(Abstract = paste0( '--- 
+title: "', Title, '" 
+author: "', Speaker, '"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+', Abstract))
+for(filenames in abstract_list$id){
+  file_connection <- file(glue::glue("abstracts/{filenames}.Rmd"))
+  writeLines(abstract_list %>% filter(id == filenames) %>% 
+               slice(1) %>% 
+               pull(Abstract),file_connection)
+  close(file_connection)
+  rmarkdown::render(input = glue::glue("abstracts/{filenames}.Rmd"),
+                    output_file = glue::glue(filenames, ".html"), output_dir ="abstracts")
+}
+
+full_program <- full_program  %>%
+  dplyr::select(-last_name, -Abstract, -id) 
+
 ```
 
 
@@ -82,14 +105,14 @@ print_function(mardi)
 ## The perfect balance on Wednesday
 
 ```{r mercredi, echo = FALSE}
-mercredi <- filter(full_program, Day == "Wednesday")
+mercredi <- filter(full_program, Day == "Wednesday")  
 print_function(mercredi)
 ```
 
 ## Without weakening on Thursday
 
 ```{r jeudi, echo = FALSE}
-jeudi <- filter(full_program, Day == "Thursday")
+jeudi <- filter(full_program, Day == "Thursday") 
 print_function(jeudi)
 ```
 

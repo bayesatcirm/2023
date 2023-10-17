@@ -26,6 +26,7 @@ jobs:
           Rscript -e "install.packages(c('kableExtra', 'wesanderson'))"
           Rscript -e "rmarkdown::clean_site()"
           Rscript  -e "rmarkdown::clean_site(preview = FALSE)"
+          Rscript -e "rmarkdown::render('content/home/program_R.Rmd')"
           Rscript -e "blogdown::build_site(local = FALSE, run_hugo = FALSE, build_rmd = TRUE)"
           Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
       - name: Deploy
