@@ -39,7 +39,7 @@ print_function <- function(df){
       background = get_color(talk_type)
     )) %>% 
   kableExtra::kbl(escape = FALSE,
-             col.names = c("", "", "Speaker", "Title", "Abstract")) %>%
+             col.names = c("", "", "", "Speaker", "Title")) %>%
   kableExtra::kable_classic("striped")
 }
 ```
