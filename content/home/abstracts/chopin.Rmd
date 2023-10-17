@@ -1,0 +1,9 @@
+--- 
+title: "[An introduction to state-space models, particle filters, and Sequential Monte Carlo samplers](abstracts/chopin.html)" 
+author: "Nicolas Chopin"
+date: ""
+output: 
+  html_document:
+    theme: journal
+---
+ This course will provide a general introduction to SMC algorithms, from basic particle filters and their uses in state-space (hidden Markov) modelling in various areas, to more advanced algorithms such as SMC samplers, which may be used to sample from one, or several target distributions. The course will cover "a bit of everything": theory (using Feynman-Kac models as a general framework), methodology (how to construct better algorithms in practice), implementation (examples in Python based on the library particles will be showcased), and applications.
