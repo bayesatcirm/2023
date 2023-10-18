@@ -74,7 +74,7 @@ full_program <- read.csv("detailed_program2023.csv", sep = ",", header = TRUE) %
            paste0("(abstracts/", ., ".html)")),
          Title = ifelse(Title == "", "",
                         paste0("[", Title, "]", last_name))) %>% 
-  filter(talk_type %in% c("Introduction", "Master Class", "Contributed", "Invited talk", "Poster session", "Practical session", "Speed mentoring", "Social event", "Closing")) %>% 
+  filter(talk_type %in% c("Introduction", "Master Class", "Contributed", "Invited talk", "Poster session", "Tutorial", "Speed mentoring", "Social event", "Closing")) %>% 
   mutate(abstracts_contents = glue::glue('---
 title: "{Title}"
 author: "{Speaker}"
