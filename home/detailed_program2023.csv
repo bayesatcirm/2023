@@ -6,7 +6,7 @@ Monday,11:30-12:30,Invited talk,François Caron,,
 Monday,12:30-14:00,Lunch,,,
 Monday,14:00-16:00,Tutorial,Gabriel Victorino Cardoso and Yazid Janati El Idrissi,,
 Monday,16:00-16:30,Coffee break,,,
-Monday,16:30-17:00,Contributed,Liam Llamazares,,
+Monday,16:30-17:00,Contributed,Liam Llamazares,"Penalized complexity priors for stochastic partial differential equations","Penalized complexity priors are used in Bayesian inference to define priors that penalize the distance from a base model. We investigate how to use this framework to set priors for the coefficients of a spatial stochastic partial differential equation (SPDE).   We first work with stationary solutions to the SPDE. In this case, the coefficients are finite-dimensional and not functions of space, leading to a more straightforward analysis.   We then extend this to the non-stationary setting. In this case, as the coefficients are themselves functions of space, the parameter space is infinite-dimensional. We show how to extend the concept of spectral density to non-stationary fields. We then use this non-stationary spectral density to define a distance between the parameters of the SPDE and calculate a penalized complexity prior."
 Monday,17:00-17:30,Contributed,Jacopo Iollo,,
 Monday,17:30-19:30,Poster session,,,
 Monday,19:30-21:00,Dinner,,,
