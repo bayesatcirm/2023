@@ -1,9 +1,0 @@
---- 
-title: "" 
-author: "Elena Bortolato"
-date: ""
-output: 
-  html_document:
-    theme: journal
----
-

@@ -1,9 +1,0 @@
---- 
-title: "" 
-author: "Jean-Michel Marin"
-date: ""
-output: 
-  html_document:
-    theme: journal
----
-
