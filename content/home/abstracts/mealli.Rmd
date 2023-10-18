@@ -1,9 +1,0 @@
---- 
-title: "" 
-author: "Fabrizia Mealli"
-date: ""
-output: 
-  html_document:
-    theme: journal
----
-

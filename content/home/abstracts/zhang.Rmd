@@ -1,9 +1,0 @@
---- 
-title: "" 
-author: "Mengyan Zhang"
-date: ""
-output: 
-  html_document:
-    theme: journal
----
-
