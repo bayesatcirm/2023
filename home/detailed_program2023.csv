@@ -24,8 +24,8 @@ Tuesday,18:00-19:00,Social event,Football game,,
 Tuesday,19:30-21:00,Dinner,,,
 Wednesday,9:00-11:00,Master Class,Silvia Chiappa,,
 Wednesday,11:00-11:30,Coffee break,,,
-Wednesday,11:30-12:00,Contributed,,,
-Wednesday,12:00-12:30,Contributed,Mengyan Zhang,,
+Wednesday,11:30-12:00,Contributed,Joshua Bon,"Bayesian score calibration for approximate models","We propose a new method for adjusting samples from an approximate posterior to reduce bias and produce more accurate uncertainty quantification. We do this by optimising a transform of the approximate posterior that maximises a scoring rule. The procedure is Bayesian but has some interesting parallels with frequentist calibration."
+Wednesday,12:00-12:30,Contributed,Mengyan Zhang,"Bayesian optimisation with aggregated feedback","We consider the Bayesian optimisation problem, under a novel setting of aggregated feedback. This is motivated by applications where the precise rewards are impossible or expensive to obtain, while an aggregated reward or feedback, such as the average over a subset, is available. We adaptively construct a tree with nodes as subsets of the arm space and propose Gaussian Process Optimistic Optimisation (GPOO) algorithm."
 Wednesday,12:30-14:00,Lunch,,,
 Wednesday,14:00-19:30,Social event,Free time,,
 Wednesday,19:30-21:00,Dinner,,,
