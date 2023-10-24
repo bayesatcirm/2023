@@ -54,4 +54,4 @@ Registrations are closed.
 
 There is no registration fee. Room and board are available for all participants, and should be paid directly to CIRM (you should have received information about this step). The organizers have secured funding to cover the room and board costs of a number of participants, but the application deadline has passed and all funded participants have been contacted.
 
-[Abstracts for the talks and posters are available here](/home/abstracts.pdf).
+[Abstracts for the talks and posters are available here](/2023/home/abstracts.pdf).
