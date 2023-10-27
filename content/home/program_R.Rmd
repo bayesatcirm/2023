@@ -25,7 +25,7 @@ library(kableExtra)
 my_palette <- wesanderson::wes_palette("FantasticFox1", type = "discrete")
 get_color <- function(vec){
   map_chr(vec, function(x) 
-    if(x %in% c("Coffee break", "Snooze time", "Diner", "Lunch"))
+    if(x %in% c("Coffee break", "Snooze time", "Dinner", "Lunch", "Social event"))
       return(my_palette[1])
     else if(x %in% c("Invited talk", "Practical session"))
       return(my_palette[2])
