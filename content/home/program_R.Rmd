@@ -22,7 +22,7 @@ system("mkdir ../abstracts ")
 library(tidyverse)
 library(kableExtra)
 # my_palette <- spec_color(1:5, end = 0.9, option = "A", direction = -1)
-my_palette <- wesanderson::wes_palette("FantasticFox1", type = "discrete")
+my_palette <- rev(wesanderson::wes_palette("Darjeeling1", type = "discrete"))
 get_color <- function(vec){
   map_chr(vec, function(x) 
     if(x %in% c("Coffee break", "Snooze time", "Dinner", "Lunch", "Social event"))
