@@ -2,7 +2,7 @@ Day,Hour,talk_type,Speaker,Title,Abstract
 Monday,8:45-9:00,Introduction,Organizers,Opening remarks,
 Monday,9:00-11:00,Master Class,Nicolas Chopin,"An introduction to state-space models, particle filters, and Sequential Monte Carlo samplers"," This course will provide a general introduction to SMC algorithms, from basic particle filters and their uses in state-space (hidden Markov) modelling in various areas, to more advanced algorithms such as SMC samplers, which may be used to sample from one, or several target distributions. The course will cover ""a bit of everything"": theory (using Feynman-Kac models as a general framework), methodology (how to construct better algorithms in practice), implementation (examples in Python based on the library particles will be showcased), and applications."
 Monday,11:00-11:30,Coffee Break,,,
-Monday,11:30-12:30,Invited talk,François Caron,,
+Monday,11:30-12:30,Invited talk,François Caron,Sparse graphs based on exchangeable random measures: properties, models and examples,"Random simple and multigraph models based on exchangeable random measures, aka graphex processes or generalised graphon models, have recently been proposed as a versatile class of sparse random graph models. This class of models can be seen as a generalisation of the popular graphon models. I will present this class of models, discuss some of their asymptotic properties (degree distribution, clustering coefficients). I will also present some particular models with interpretable parameters within this class and their use for discovering latent communities in sparse real-world networks."
 Monday,12:30-14:00,Lunch,,,
 Monday,14:00-16:00,Tutorial,Gabriel Victorino Cardoso and Yazid Janati El Idrissi,,
 Monday,16:00-16:30,Coffee break,,,
