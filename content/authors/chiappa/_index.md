@@ -7,7 +7,7 @@ email: ""
 organizations:
 - name: Google DeepMind
   url: ""
-role: Research Scientist at DeepMind 
+role: Research Scientist
 superuser: false
 title: Silvia Chiappa
 user_groups:
