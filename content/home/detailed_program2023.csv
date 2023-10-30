@@ -37,7 +37,7 @@ Thursday,12:00-12:30,Contributed,Thibaut Lemoine,Monte Carlo integration on comp
 Thursday,12:30-14:00,Social event, Lunch,,
 Thursday,14:00-16:00,Tutorial,Gabriel Victorino Cardoso and Yazid Janati El Idrissi,Leveraging JAX for Bayesian Inference,"In this talk, we explore the capabilities of JAX, a powerful library that builds upon NumPy's foundations. JAX extends array operations and introduces essential tools for researchers, including automatic differentiation and just-in-time compilation. We will demonstrate how JAX can be harnessed to implement traditional algorithms used in Bayesian inference. With examples and hands-on exercises, we'll show how JAX simplifies the coding process, enhances performance, and empowers researchers in the field of scientific computing and machine learning"
 Thursday,16:00-16:30,Social event, Coffee Break,,
-Thursday,16:30-17:30,Invited talk,Fabrizia Mealli,,
+Thursday,16:30-17:30,Invited talk,Fabrizia Mealli,Bayesian Causal Inference: A Potential Outcome Perspective with Applications to Intermediate Variables,"I will introduce the Bayesian perspective of causal inference based on the potential outcomes framework, reviewing the causal estimands, the assignment mechanism and the general structure of Bayesian inference of causal effects. I will then extend the discussion to complex settings with intermediate variables and present an application of Bayesian Principal Stratification analysis to treatment switching in clinical trials." 
 Thursday,19:00-21:30,Social event, Bouillabaisse, ,
 Thursday,21:30-23:00,Social event,Karaoke night,,
 Friday,9:00-10:00,,,
