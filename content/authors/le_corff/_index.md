@@ -17,8 +17,8 @@ user_groups:
 ---
 
 
-François Caron is Professor of statistics and machine learning LPSM, Sorbonne Université.
+Sylvain Le Corff is Professor of statistics and machine learning LPSM, Sorbonne Université.
 
-He develops probabilistic models for complex and structure data mainly in the context of Statistical Machine Learning and specifically efficient algorithm to sample from or to estimate them. 
+He develops probabilistic models for complex and structured data mainly in the context of Statistical Machine Learning and specifically efficient algorithm to sample from or to estimate them. 
 
 More info available on [his website](https://sylvainlc.github.io//).
