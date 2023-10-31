@@ -11,7 +11,7 @@ organizations:
   url: ""
 role: Professor in LPSM, Sorbonne Université.
 superuser: false
-title: François Caron
+title: Sylvain Le Corff
 user_groups:
 - Invited speakers
 ---
